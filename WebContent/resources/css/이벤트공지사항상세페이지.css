@@ -1,0 +1,23 @@
+.board_main{
+    border: 1px solid #ccc;
+    margin: 5%;
+    padding: 2%;
+    width: 70%;
+}
+.board_name{
+    border-bottom: 1px solid #ccc;
+}
+.board_section{
+    border-bottom: 1px solid #ccc;
+padding: 1% 0 1% 0;
+}
+.board_button_list{
+    float: right;
+    width: 5%;
+    margin: 1%;
+    padding: 1%;
+    border: none;
+    border-radius: 10px;
+    background-color:#567890;
+    color: white;
+}

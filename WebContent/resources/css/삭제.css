@@ -1,0 +1,30 @@
+.delete_main{
+    padding: 1%;
+    text-align: center;
+}
+.delete_title{
+    font-size: 30px;
+    
+}
+.delete_title1{
+    margin-bottom: 3%;
+}
+.delete_text{
+    height: 30px;
+    width: 100%;
+    margin-bottom: 3%;
+}
+.delete_btn{
+    font-weight: bold;
+    padding: 2% 4% 2% 4%;
+    border: none;
+    border-radius:5px;
+    margin: 1%;
+    background-color:#567890;
+    color: white;
+    cursor: pointer;
+}
+.delete_name{
+    font-weight: bold;
+    font-size: larger;
+}

@@ -1,0 +1,26 @@
+table{
+    text-align: center;
+    width: 85%;
+    border-collapse: collapse;
+    border:1px solid black;
+}
+table td{
+    padding: 1%;
+    border-collapse: collapse;
+    border:1px solid black;
+}
+table th{
+    border-collapse: collapse;
+    border:1px solid black;
+}
+.tab_btn_1{
+    padding: 1% 1% 1% 1%;
+    border: none;
+    border-radius:5px;
+    background-color:#567890;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: CookieRun;
+    margin-right: 1%;
+}

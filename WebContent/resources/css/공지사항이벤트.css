@@ -1,0 +1,36 @@
+.board_list{
+    text-align: center;
+}
+.board_list td{
+    border-bottom: 1px solid #333333;
+    padding: 1% 0 1% 0;
+}
+.board_list table{
+    width: 1000px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+.page{
+	display:flex;
+	width:100%;
+	justify-content:center;
+	margin-top: 5%;
+}
+.page ul{
+	display:flex;
+	width:80%;
+	justify-content:center;
+	list-style:none;	
+}
+.page ul li{
+	float:left;
+	padding:1%;
+}
+.page ul li a{
+	text-decoration:none;
+}

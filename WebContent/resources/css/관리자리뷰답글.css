@@ -1,0 +1,20 @@
+input[type="text"],[type="password"]{
+    width: 100%;
+}
+table{
+    margin-bottom: 5%;
+}
+.tab_btn_1{
+    padding: 1% 1% 1% 1%;
+    border: none;
+    border-radius:5px;
+    background-color:#567890;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: CookieRun;
+
+}
+.tab_btn{
+    margin-top: 1%;
+}

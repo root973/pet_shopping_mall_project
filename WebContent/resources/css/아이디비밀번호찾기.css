@@ -1,0 +1,30 @@
+.id_main{
+    padding: 1%;
+    text-align: center;
+}
+.id_title{
+    font-size: 30px;
+    
+}
+.id_title1{
+    margin-bottom: 3%;
+}
+.id_text{
+    height: 30px;
+    width: 100%;
+    margin-bottom: 3%;
+}
+.id_btn{
+    font-weight: bold;
+    padding: 2% 4% 2% 4%;
+    border: none;
+    border-radius:5px;
+    margin: 1%;
+    background-color:#567890;
+    color: white;
+    cursor: pointer;
+}
+.id_name{
+    font-weight: bold;
+    font-size: larger;
+}

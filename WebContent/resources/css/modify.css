@@ -1,0 +1,77 @@
+.client_modify{
+    position: relative;
+    left: -65%;
+    width: 200%;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+}
+/* 각 리스트들 구역 나누는 박스 */
+.dividebox{
+    width: 200%;
+    display:flex;
+    margin: 1% 0 1% 30%;
+    font-size: 1.2em;
+    justify-content:flex-start;
+}
+
+/* 정보목록들 width 길이 다 똑같이 */
+.memberinfo_list{
+    width: 10%;
+}
+/* 비밀번호 */
+
+.password_check{
+    margin-left: 1%;
+    border-radius:5px;
+    border: none;
+    background-color: #567890;
+    color: white;
+}
+/* 연락처 */
+.phone_first{
+    padding: 10%;
+}
+.phone{
+    display:flex;
+}
+.phone_number{
+    width: 100%;
+}
+/* 이메일 */
+.at{
+    margin: 0 1% 0 1%;
+}
+
+/* 주소 */
+.post_number{
+    width: 90%;
+}
+.search{
+    border: none;
+    border-radius:5px;
+    background-color: #567890;
+    color: white;
+    cursor: pointer;
+}
+.address{
+    width: 160%;
+}
+.buttonbox{
+    position: relative;
+    left: 16%;
+    display: flex;
+    width: 50%;
+}
+.modify_com, .cancel{
+    padding: 1% 4% 1% 4%;
+    border: none;
+    border-radius:5px;
+    margin: 1%;
+    background-color:#567890;
+    color: white;
+    cursor: pointer;
+}
+#errormessage{
+	font-size:0.2em;
+}

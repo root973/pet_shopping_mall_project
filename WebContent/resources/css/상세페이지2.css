@@ -1,0 +1,66 @@
+input[id*="answer"]{
+    display: none;
+}
+input[id*="answer"] + label{ /*문의창*/
+    position: relative;
+    left: 15%;
+    width: 70%;
+    display: block;
+    padding: 20px;
+    border: 1px solid grey;
+    color: black;
+    font-weight: 500;
+    background-color: #ccc;
+    cursor: pointer;
+}
+input[id*="answer"] + label + div{ /*답변창*/
+    position: relative;
+    left: 15%;
+    width: 72.5%;
+    max-height: 0;
+    transition: all .35s;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid black;
+    border-top: 0;
+    font-size: 20px;
+}
+input[id*="answer"] + label + div p{
+    display: inline-block;
+    padding: 20px;
+}
+input[id*="answer"]:checked + label + div {max-height: 100px;}
+
+
+input[id*="reply"]{
+    display: none;
+}
+input[id*="reply"] + label{ /*문의창*/
+    position: relative;
+    left: 15%;
+    width: 70%;
+    display: block;
+    padding: 20px;
+    border: 1px solid grey;
+    color: black;
+    font-weight: 500;
+    background-color: #ccc;
+    cursor: pointer;
+}
+input[id*="reply"] + label + div{ /*답변창*/
+    position: relative;
+    left: 15%;
+    width: 72.5%;
+    max-height: 0;
+    transition: all .35s;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid black;
+    border-top: 0;
+    font-size: 20px;
+}
+input[id*="reply"] + label + div p{
+    display: inline-block;
+    padding: 20px;
+}
+input[id*="reply"]:checked + label + div {max-height: 100px;}

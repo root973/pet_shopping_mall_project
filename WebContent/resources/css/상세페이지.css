@@ -1,0 +1,315 @@
+a{
+    text-decoration: none;
+}
+.sangdan{ /*상품정보*/
+    display:flex;
+    margin: 5% 0 5% 0;
+    justify-content: center;
+    width: 80%;
+  
+}
+.left_menu{/*상단사진*/
+    width: 50%;
+}
+.right_menu{/*상단옵션창*/
+    width: 100%;
+    margin-left: 5%;
+}
+.r_menu1{ /*상단왼쪽 상품명 첫번째박스*/
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 2px solid#ccc;
+}
+.product_name{
+    font-size: 2em;
+}
+.size_option{
+    font-size: 1.2em;
+    margin: 2% 0 2% 0;
+}
+.r_menu2{ /*상단왼쪽 판매가 두번째박스*/
+    width: 100%;
+    height: 55%;
+    margin: 5% 0 5% 0;
+}
+
+.r_menu2_1{
+    display: flex;
+    color: rgb(99, 99, 99);
+    font-size: 1.5em;
+    margin: 4% 0 4% 0;
+}
+.r_menu4_1{
+    position: relative;
+    display: flex;
+    color: rgb(99, 99, 99);
+    font-size: 1.5em;
+    top: -5px;
+    left: -140px;
+    background-color: #fff;
+    -webkit-user-drag: 100px;
+    float: right;
+ 
+}
+.r_menu2 div{ 
+    width:50%;
+}
+.cut{
+    display: flex;
+    width: 100%;
+}
+.cut input[type="button"]{
+    border:none;
+    padding: 5%;
+    background-color: #567890;
+}
+.cut input[type="text"]{
+    border:none;
+    width: 50%;
+    text-align: center;
+    font-size: 0.8em;
+}
+.r_menu3{/*상단왼쪽 수량,총합가격 세번째박스*/
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+}
+.r_menu3_1{
+    display: flex;
+    width: 25%;
+    color: rgb(99, 99, 99);
+    font-size: 1.5em;
+    margin: 2% 0 2% 0;
+    background-color:#fff;
+}
+.r_menu3_2{
+    width: 300px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    background-color: #fff;
+ 
+}
+.r_menu3 input[type="text"]{
+    width: 20%;
+    border: none;
+    font-size: 1.5em;
+}
+
+.r_menu3 input[type="button"]{
+    width: 50%;
+    margin: 1%;
+    padding: 2% 0 2% 0;
+    border: none;
+    background-color: #567890;
+    color: white;
+    font-size: 1.5em;
+}
+.r_menu3 input[type="submit"]{
+    width: 50%;
+    margin: 1%;
+    padding: 2% 0 2% 0;
+    border: none;
+    background-color: #567890;
+    color: white;
+    font-size: 1.5em;
+}
+#pr1{
+	width: 100px;
+}
+
+/*상품상세정보,구매안내,리뷰,문의 창*/
+.contentbox{
+    width: 80%;
+}
+.tab_btn{
+    width: 100%;
+    display: flex;
+}
+.tab_sub{
+    width: 25%;
+    text-align: center;
+    background-color: #ccc;
+    padding: 1% 0 1% 0;
+}
+.tab_sub > a{
+    color: black;
+}
+.tab_info{/*상품상세정보사진창*/
+    width: 100%;
+}
+.tab_guide{
+    width: 100%;
+}
+.tab_review{
+    width: 100%;
+    
+}
+.tab_qa{
+    width: 100%;
+   
+}
+/* 구매안내창 */
+.tab_guide_1{   /*상품결제정보*/
+    width: 100%;
+    display: inline-block;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+}
+.tab_guide_1_1{
+    float: left;
+    background-color: #fff;
+
+}
+
+.tab_guide_1_2{
+    width: 75%;
+    float: right;
+    background-color: #fff;
+}
+
+.tab_guide_2{  /*배송정보*/
+    width: 100%;
+    border-top: 1px solid #ccc;
+    display: inline-block;
+    background-color: #fff;
+}
+.tab_guide_2_1{
+    width: 25%;
+    float: left;
+
+}
+.tab_guide_2_1 > div{
+    position: relative;
+    top: 10%;
+}
+.tab_guide_2_2 >div{
+    position: relative;
+    top: 10%;
+}
+.tab_guide_2_2{
+    width: 75%;
+    float: right;
+  
+}
+
+.tab_guide_3{ /*반품정보*/
+    width: 100%;
+    display: inline-block;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+}
+.tab_guide_3_1{
+    width: 25%;
+    float: left;
+ 
+}
+.tab_guide_3_2{
+    width: 75%;
+    float: right;
+
+}
+.tab_guide_3_2 >div{
+    position: relative;
+}
+.review_main{
+    width: 100%;
+    display:flex;
+    margin: 1% 0 1% 0;
+}
+.review_main div{
+    width: 10%;
+}
+
+.review_title{
+    margin: 1% 0 1% 0;
+}
+.review1{ /*리뷰창*/
+    position: relative;
+    left: 17%;
+    width: 850px;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+.question1{
+    position: relative;
+    left: 17%;
+    width: 850px;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.writer_p{  /*작성자부분*/
+    
+    display:flex;
+    width: 100%;
+}
+.chec{
+    
+    padding-top: 15px;
+    width: 80%;
+}
+.admin_p{  /*작성자부분*/
+    display:flex;
+    width: 100%;
+}
+.user_info{ /*작성자,작성일*/
+    position: relative;
+    left: 10%;
+    width: 30%;
+ 
+}
+
+.page{
+    width: 100%;
+}
+.page ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.page ul li{
+    margin: 2%;
+}
+/*문의하기 리스트*/
+.question_list{
+  width: 100%;
+}
+.question_list_1{
+  width: 100%;
+  padding-bottom: 50px;
+}
+.question_list_1-1{
+  width: 100%;
+  background-color: blue;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.goods_question{/*Q&A질문*/
+    width: 100%;
+    color: black;
+    font-size: 14px;
+    background-color: gray;
+    color: #fff;
+}
+
+.member_info{ /*작성자정보*/
+    position: relative;
+    left: 80%;
+    background-color: red;
+    width: 20%;
+}
+.question_list_2-1{
+  width: 100%;
+}
+.question_list_2-1 ul{
+    display:flex;
+    justify-content: center;
+    list-style: none;
+}
+.question_list_2-1 ul li{
+    margin: 2%;
+}
+.question_list_1-1 >.q_list_title{
+  width: 40%;
+}

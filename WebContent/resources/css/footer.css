@@ -1,0 +1,25 @@
+/* �뫖�꽣 */
+.footer{
+    background-color: #e8e8e8;
+    margin: 0 auto;
+    margin: 5% 0 0 0;
+    display: flex;
+    justify-content:center; 
+    position: relative;
+    margin-top: 40%;
+}
+#footer_1{
+    border-right: 1px solid #ccc;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#footer_2{
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+#footer_3{
+    border-left: 1px solid #ccc;
+    padding-left: 5%;
+    padding-right: 5%;
+} 

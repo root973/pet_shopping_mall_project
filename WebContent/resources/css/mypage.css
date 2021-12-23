@@ -1,0 +1,206 @@
+
+
+/* 주문목록페이지 */
+
+.order_list{
+    position: relative;
+    left: 12%;
+    width: 110%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff
+    ;
+}
+
+.title, .item_list{
+    width: 80%;
+    display: flex;
+    background-color: #fff;
+}
+.title{
+    background-color:#567890;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    border: 1px solid #567890;
+    color: white;
+}
+.check, .buy_date, .item, .price, .count, .shipping,.state,.invonumber, .sum, .more{
+    text-align: center;
+    padding: 1% 0 1% 0;
+    margin: auto;
+}
+.shipping{
+    width: 8%;
+}
+.check{
+    width: 4%;
+}
+.buy_date{
+    width: 10%;
+	text-align: center;
+}
+.item{
+    width: 50%;
+}
+.price, .count, .shipping .more, .state{
+    width: 10%;
+}
+ .invonumber{
+ 	width: 20%;
+ 
+ }
+.sum{
+    width: 10%;
+}
+.more{
+    width: 7%;
+}
+.listimg{
+    width: 20%;
+}
+.listinfo{
+    margin: auto;
+    	text-align:center;
+}
+.item_list{
+
+    border: 1px solid #567890;
+}
+.item_list .item{
+    display:flex;
+}
+.item div{
+    margin-left: 5%;
+   
+}
+.sumall{
+    margin: 2%;
+    font-size: 1.5em;
+}
+.basket_button{
+    justify-content: center;
+    display:flex;
+}
+.basket_button input{
+    width: 150px;
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+    border: none;
+    background-color: #567890;
+    color: white;
+    cursor: pointer;
+}
+.morebutton{
+    width: 100%;
+    padding: 3%;
+    border:none;
+    background-color: #567890;
+    color: white;
+}
+.menuselection{
+    position: relative;
+    padding-bottom: 10px;
+    left: -1%;
+   
+}
+.menn{
+	display:none;
+}
+
+/* 리뷰,문의 */
+
+
+.review_question{
+    position: relative;
+    display: none;
+ 
+    left: 2%;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#ccc;
+}
+.rq_list{
+    position: relative;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    background-color: #567890;
+    color: #fff;   
+}
+.rq_data{
+  
+    float: left;
+    width: 10%;
+    padding: 1% 0 1% 0;
+}
+.rq_info{
+    float: left;
+    width: 25%;
+    padding: 1% 0 1% 0;
+    background-color: #567890;
+}
+.goods_imging{
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+.goods_imging img{
+    width: 100%;
+    height: 100%;
+}
+.rq_review{
+    float: left;
+    width: 37%;
+    padding: 1% 0 1% 0;
+}
+.rq_question{
+    float: left;
+    width: 38%;
+    padding: 1% 0 1% 0;
+}
+.list_title{
+    display: flex;
+    text-align: center;
+    border: 1px solid #567890;
+}
+.list_title :nth-child(1){
+
+    background-color: #fff;
+}
+.list_title :nth-child(2){
+ 
+    background-color: #fff;
+}
+.list_title :nth-child(3){
+ 
+    background-color: #fff;
+}
+.list_title :nth-child(4){
+ 
+    background-color: #fff;
+}
+.menu_a{
+	  
+	float:left;
+}
+.menu_b{
+	  position: relative;
+	   padding-left: 15px;
+	float:left;
+}
+#menu_a{
+
+    display: none;
+}
+#menu_b{
+    display: none;
+}

@@ -1,0 +1,24 @@
+.main_form{
+    position: relative;
+    left: 33%;
+
+}
+.item_btn{
+    padding: 0% 1% 0% 1%;
+    margin-left: 1%;
+    border-radius:5px;
+    border: none;
+    background-color: #567890;
+    color: white;
+    font-size: medium;
+    font-family: CookieRun;
+}
+.item_btn2{
+    padding: 1% 1% 1% 1%;
+    border-radius:5px;
+    border: none;
+    background-color: #567890;
+    color: white;
+    font-size: medium;
+    font-family: CookieRun;
+}

@@ -1,0 +1,57 @@
+.review{
+    position: relative;
+    left: 20%;
+}
+.review_main{
+    position: relative;
+    left: 20%;
+    width: 60%;
+    height: auto;
+}
+.review_con{
+    margin-top: 1%;
+    position: relative;
+    left: 20%;
+}
+.review_btn{
+    position: relative;
+    left: 20%;
+    padding-top: 1%;
+    margin-bottom:30px;
+}
+.review_span_btn2{
+    position: relative;
+    left: 33%;
+}
+.review_btn1{
+    padding: 0 3% 0 3%;
+    border: none;
+    border-radius:5px;
+    background-color:#567890;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: CookieRun;
+}
+
+tr{
+    
+    padding: 2%;
+}
+td{
+    border-bottom: 1px solid #ccc;
+    padding-left: 2%;
+    width: 70%;
+    height: 50px;
+}
+th{
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+    width: 10%;
+}
+.title_fild{
+    height: 30px;
+    font-weight: bold;
+    font-size: large;
+}

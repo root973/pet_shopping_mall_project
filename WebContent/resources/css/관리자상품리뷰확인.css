@@ -1,0 +1,23 @@
+.tab_btn_1{
+    padding: 0% 1% 0% 1%;
+    border: none;
+    border-radius:5px;
+    background-color:#567890;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: CookieRun;
+ 
+}
+.aa{
+	width: 6%;
+}
+.bb{
+	width: 6%;
+}
+.cc{
+	width: 10%;
+}
+.dd{
+	width:6%
+}
